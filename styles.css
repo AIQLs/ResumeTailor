@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+#feedback {
+    margin-top: 10px;
+    color: red;
+}
+
+#progressBar {
+    width: 100%;
+    background-color: #f3f3f3;
+    margin-top: 10px;
+}
+
+#progressStatus {
+    width: 0%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    background-color: #4CAF50;
+}
+
+body {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+#progressBar {
+    width: 100%;
+    background-color: #f3f3f3;
+    margin-top: 10px;
+}
+
+#progressStatus {
+    width: 0%;
+    height: 20px;
+    background-color: #4CAF50;
+}

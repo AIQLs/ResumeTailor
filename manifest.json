@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Resume Tailor",
+  "version": "1.0",
+  "description": "Tailor your resume for any job posting.",
+  "permissions": ["storage"],
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "path_to_icon.png" 
+    }
+  },
+  "web_accessible_resources": [
+    "pdf.js",
+    "pdf.worker.js"
+  ],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["contentScript.js"]
+  }]
+}
